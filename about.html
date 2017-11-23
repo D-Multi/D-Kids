@@ -1,51 +1,27 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8">
     <title>About Me</title>
 <link href="style.css" rel="stylesheet">
+<link href="Logos/50x50.JPG" rel="icon">
   </head>
   <body>
-    <h1>About Me</h1>
+<div id="grad">
 <nav class="nav">
 <a href="index.html">Home</a>
-<a href="Games.html">Games</a>
-<a href="Education.html">Education</a>
-<a href="Programming.html">Messing Around With Programming</a>
+<a href="Games.html">Game Development</a>
+<a href="Programming.html">Programming Stuff</a>
     <span class="selected">About Me</span>
+<a href="Other.html">Other</a>
 </nav>
-<br>
-<div id="pe">
-    <textarea id="pass">Password goes here!</textarea>
-    <button onClick="event1();" class="games">Submit Password</button>
-    </div>
-<br>
-<div id="github" style="display:none">
-  <img src="logo.jpg" alt="D-Multi logo" width="260" height="250">
-<a href="http://github.com/dguis" class="games">My GitHub</a>
 </div>
-    <script>
-      var event1 = function(){
-var box = document.getElementById("pass");
-      var password = box.innerHTML;
-         
-      
-if (password === "3685") {
-    alert("That's the password!");
-     var github = document.getElementById("github");
-
-      github.style.display = "";
-      
-      var pe = document.getElementById("pe");
-      pe.style.display = "none";
-}
-else {
-alert("Incorrect!");
-}
-      }
-
-
-    </script>
+<nav class="nav2">
+  <span>Information</span>
+<a href="http://github.com/dguis" target="_blank">My GitHub</a>
+</nav>
+<h1>About Me</h1>
+<br>
+<p class="text"><strong>I am a programmer who enjoys making games, websites, and learning new things. I collaborate with <a href="https://dude2093350.github.io/cTech/home.html" target="_blank">cTech</a>, and <a href="http://adamrobertson.us" target="_blank">BabadabadosGames</a>.</strong></p>
   </body>
 </html>
